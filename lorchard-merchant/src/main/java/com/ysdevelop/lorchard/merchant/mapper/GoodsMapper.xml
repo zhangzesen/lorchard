@@ -129,7 +129,7 @@
 			<if test="originalPrice != null ">
 				s.`originalPrice` = #{originalPrice},
 			</if>
-			<if test="minPrice != null  ">
+			<if test="spellingGroupPrice != null  ">
 				s.`spellingGroupPrice` = #{spellingGroupPrice},
 			</if>
 			<if test="stock != null  ">
